@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+header {
+  background: -moz-linear-gradient(
+    45deg,
+    rgba(173, 16, 42, 1) 56%,
+    rgba(196, 18, 48, 1) 72%
+  ) !important;
+  background: -webkit-linear-gradient(
+    45deg,
+    rgba(173, 16, 42, 1) 56%,
+    rgba(196, 18, 48, 1) 72%
+  ) !important;
+  background: linear-gradient(
+    45deg,
+    rgba(173, 16, 42, 1) 56%,
+    rgba(196, 18, 48, 1) 72%
+  ) !important;
+}
+
+.SuperTopMenuMain a:link:nth-child(-n + 3):after {
+  content: "/";
+  color: white;
+  padding: 0.5rem;
+}
+
+.nav-title {
+  font-family: "Adelle Regular", Georgia, "Times New Roman", serif;
+}
+
+.corner-alumni {
+  background-image: url("/CornerImages/AlumniHallCornerImg.png");
+}
+
+.navLinkItem {
+  margin-left: -0.5em;
+  padding: 0 0.25em 0 0.5em;
+}
+.navLinkItem a:link:hover {
+  text-decoration: none;
+}
+.navLinkItem:not(:first-child):hover {
+  color: white;
+  background: red;
+  background: linear-gradient(
+    90deg,
+    rgba(195, 20, 45, 1) 55%,
+    rgba(255, 255, 255, 0.1) 90%
+  );
+}

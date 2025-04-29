@@ -1,0 +1,206 @@
+@font-face {
+  font-family: "Adelle Thin";
+  font-style: normal;
+  font-weight: 300;
+  src: local("Adelle Thin"), url("/public/Fonts/Adelle/AdelleMU-Thin.otf");
+}
+@font-face {
+  font-family: "Adelle Thin Italic";
+  font-style: italic;
+  font-weight: 300;
+  src: local("Adelle Thin Italic"),
+    url("/public/Fonts/Adelle/AdelleMU-ThinItalic.otf");
+}
+@font-face {
+  font-family: "Adelle Light";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Adelle Light"), url("/Fonts/Adelle/AdelleMU-Light.otf");
+}
+@font-face {
+  font-family: "Adelle Light Italic";
+  font-style: italic;
+  font-weight: 400;
+  src: local("Adelle Light Italic"),
+    url("/Fonts/Adelle/AdelleMU-LightItalic.otf");
+}
+@font-face {
+  font-family: "Adelle Regular";
+  font-style: normal;
+  font-weight: 500;
+  src: local("Adelle Regular"), url("/Fonts/Adelle/AdelleMU-Regular.otf");
+}
+
+@font-face {
+  font-family: "Adelle Italic";
+  font-style: italic;
+  font-weight: 500;
+  src: local("Adelle Italic"), url("/public/Fonts/Adelle/AdelleMU-Italic.otf");
+}
+
+@font-face {
+  font-family: "Adelle SemiBold";
+  font-style: normal;
+  font-weight: 600;
+  src: local("Adelle SemiBold"), url("/Fonts/Adelle/AdelleMU-Semibold.otf");
+}
+
+@font-face {
+  font-family: "Adelle SemiBold Italic";
+  font-style: italic;
+  font-weight: 600;
+  src: local("Adelle SemiBold Italic"),
+    url("/Fonts/Adelle/AdelleMU-SemiBoldItalic.otf");
+}
+
+@font-face {
+  font-family: "Adelle Bold";
+  font-style: normal;
+  font-weight: 700;
+  src: local("Adelle Bold"), url("/Fonts/Adelle/AdelleMU-Bold.otf");
+}
+
+@font-face {
+  font-family: "Adelle Bold Italic";
+  font-style: italic;
+  font-weight: 700;
+  src: local("Adelle Bold Italic"), url("/Fonts/Adelle/AdelleMU-BoldItalic.otf");
+}
+
+@font-face {
+  font-family: "Adelle ExtraBold";
+  font-style: normal;
+  font-weight: 800;
+  src: local("Adelle ExtraBold"), url("/Fonts/Adelle/AdelleMU-ExtraBold.otf");
+}
+
+@font-face {
+  font-family: "Adelle ExtraBold Italic";
+  font-style: italic;
+  font-weight: 800;
+  src: local("Adelle ExtraBold Italic"),
+    url("/Fonts/Adelle/AdelleMU-ExtraBoldItalic.otf");
+}
+
+@font-face {
+  font-family: "Adelle Heavy";
+  font-style: normal;
+  font-weight: 900;
+  src: local("Adelle Heavy"), url("/Fonts/Adelle/AdelleMU-Heavy.otf");
+}
+
+@font-face {
+  font-family: "Adelle Heavy Italic";
+  font-style: italic;
+  font-weight: 900;
+  src: local("Adelle Heavy Italic"),
+    url("/Fonts/Adelle/AdelleMU-HeavyItalic.otf");
+}
+
+@font-face {
+  font-family: "Gotham Thin";
+  font-style: normal;
+  font-weight: 100;
+  src: local("Gotham Thin"), url("/public/Fonts/Gotham/Gotham-Thin.otf");
+}
+@font-face {
+  font-family: "Gotham Thin Italic";
+  font-style: italic;
+  font-weight: 100;
+  src: local("Gotham Thin Italic"),
+    url("/public/Fonts/Gotham/Gotham-ThinItalic.otf");
+}
+@font-face {
+  font-family: "Gotham XLight";
+  font-style: normal;
+  font-weight: 200;
+  src: local("Gotham XLight"), url("/Fonts/Gotham/Gotham-XLight.otf");
+}
+@font-face {
+  font-family: "Gotham XLight Italic";
+  font-style: italic;
+  font-weight: 200;
+  src: local("Gotham XLight Italic"),
+    url("/Fonts/Gotham/Gotham-XLightItalic.otf");
+}
+
+@font-face {
+  font-family: "Gotham Light";
+  font-style: normal;
+  font-weight: 300;
+  src: local("Gotham Light"), url("/Fonts/Gotham/Gotham-Light.otf");
+}
+@font-face {
+  font-family: "Gotham Light Italic";
+  font-style: italic;
+  font-weight: 300;
+  src: local("Gotham Light Italic"), url("/Fonts/Gotham/Gotham-LightItalic.otf");
+}
+@font-face {
+  font-family: "Gotham Book";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Gotham Book"), url("/Fonts/Gotham/Gotham-Book.otf");
+}
+@font-face {
+  font-family: "Gotham Book Italic";
+  font-style: italic;
+  font-weight: 400;
+  src: local("Gotham Book Italic"), url("/Fonts/Gotham/Gotham-BookItalic.otf");
+}
+
+@font-face {
+  font-family: "Gotham Medium";
+  font-style: normal;
+  font-weight: 500;
+  src: local("Gotham Medium"), url("/Fonts/Gotham/Gotham-Medium.otf");
+}
+
+@font-face {
+  font-family: "Gotham Medium Italic";
+  font-style: italic;
+  font-weight: 500;
+  src: local("Gotham Medium Italic"),
+    url("/public/Fonts/Gotham/Gotham-MediumItalic.otf");
+}
+
+@font-face {
+  font-family: "Gotham Bold";
+  font-style: normal;
+  font-weight: 600;
+  src: local("Gotham Bold"), url("/Fonts/Gotham/Gotham-Bold.otf");
+}
+@font-face {
+  font-family: "Gotham Bold Italic";
+  font-style: italic;
+  font-weight: 600;
+  src: local("Gotham Bold Italic"), url("/Fonts/Gotham/Gotham-BoldItalic.otf");
+}
+
+@font-face {
+  font-family: "Gotham Black";
+  font-style: normal;
+  font-weight: 700;
+  src: local("Gotham Black"), url("/Fonts/Gotham/Gotham-Black.otf");
+}
+
+@font-face {
+  font-family: "Gotham Black Italic";
+  font-style: italic;
+  font-weight: 700;
+  src: local("Gotham Black Italic"), url("/Fonts/Gotham/Gotham-BlackItalic.otf");
+}
+
+@font-face {
+  font-family: "Gotham Ultra";
+  font-style: normal;
+  font-weight: 800;
+  src: local("Gotham Ultra"), url("/Fonts/Gotham/Gotham-Ultra.otf");
+}
+
+@font-face {
+  font-family: "Gotham Ultra Italic";
+  font-style: italic;
+  font-weight: 800;
+  src: local("Gotham Ultra Italic"), url("/Fonts/Gotham/Gotham-UltraItalic.otf");
+}
