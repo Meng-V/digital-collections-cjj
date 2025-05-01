@@ -32,7 +32,7 @@ export const COLLECTIONS = [
   },
   {
     name: "Western Multifaria Yearbooks",
-    href: "https://digital.lib.miamioh.edu/digital/collection/afamhist/search",
+    href: "https://digital.lib.miamioh.edu/digital/collection/p17240coll3/search",
     imageSrc:
       "https://www.lib.miamioh.edu/images/spec-coll-collections/multifaria.jpg",
     imageAlt: "Cover image from yearbook",

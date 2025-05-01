@@ -60,9 +60,9 @@ export default function Home() {
         <section className="pt-24 sm:pt-32 xl:mx-auto xl:max-w-7xl xl:px-8">
           <About />
         </section>
-        <section>
-          <Stats />
-        </section>
+        {/* <section> */}
+          {/* <Stats /> */}
+        {/* </section> */}
 
         {/* Resources section */}
         <section

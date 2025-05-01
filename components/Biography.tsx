@@ -16,10 +16,10 @@ export default function Biography() {
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto max-w-2xl lg:mx-0">
           <p className="text-lg font-semibold leading-8 tracking-tight text-red-800">
-            Background
+          Biography
           </p>
           <h2 className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
-            Dr. Carolyn Jefferson-Jenkins Biography
+            Dr. Carolyn Jefferson-Jenkins
           </h2>
           <p className="mt-6 text-xl leading-8 text-gray-700">
             Dr. Carolyn Jefferson-Jenkins served two terms as president of the League of Women Voters of the United States from 1998–2002. Before being elected president, she served as Vice President of the League of Women Voters of the United States from 1996-1998. She is the only woman of color to have served as national president in the organization&#39;s first one hundred years.
