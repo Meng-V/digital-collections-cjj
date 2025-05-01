@@ -58,7 +58,7 @@ export default function Biography() {
                 <img
                   alt=""
                   src="/CJJ-0992_Portrait_800px.jpg"
-                  className="mt-1 h-20 w-16 flex-none rounded-full bg-gray-50 object-cover"
+                  className="mt-1 h-48 w-36 flex-none rounded-full bg-gray-50 object-cover"
                 />
                 <div className="text-base content-center">
                   <div className="font-semibold text-stone-800">

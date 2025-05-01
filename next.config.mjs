@@ -23,6 +23,7 @@ const nextConfig = {
     remotePatterns: [
       { protocol: "https", hostname: "livedmu.lib.miamioh.edu" },
       { protocol: "https", hostname: "www.lib.miamioh.edu" },
+      { protocol: "https", hostname: "lib.miamioh.edu" },
       { protocol: "https", hostname: "tailwindui.com" },
       { protocol: "http", hostname: "localhost:3032" },
     ],

@@ -87,16 +87,17 @@ export default function Home() {
 
           <div className="mt-4 flow-root">
             <div className="
-            grid grid-cols-2 gap-x-2 gap-y-4 mx-4
+            grid grid-cols-1 gap-y-4 mx-4
+            sm:grid-cols-2 gap-x-4
             lg:grid lg:px-8 lg:grid-cols-4 
-            xl:gap-x-8 xl:space-x-0 xl:px-0
+            xl:gap-x-8 xl:px-0
             ">
               {RESOURCES.map((category) => (
                 <Link
                   key={category.name}
                   href={category.href}
                   target="_blank"
-                  className="relative flex h-80 w-auto flex-col overflow-hidden rounded-lg p-6 hover:opacity-75 xl:w-auto"
+                  className="relative flex h-[24rem] w-auto flex-col overflow-hidden rounded-lg p-6 hover:opacity-75 xl:w-auto"
                 >
                   <span aria-hidden="true" className="absolute inset-0">
                     <img
@@ -168,7 +169,7 @@ export default function Home() {
         {/* Collection section */}
         <section
           aria-labelledby="collection-heading"
-          className="mx-auto max-w-xl px-4 sm:px-6 lg:max-w-7xl lg:px-8"
+          className="mx-auto px-4 sm:px-6 lg:max-w-7xl lg:px-8"
         >
           <h2
             id="collection-heading"
@@ -177,32 +178,39 @@ export default function Home() {
             Related Collections
           </h2>
 
-          <div className="mt-10 space-y-12 lg:grid lg:grid-cols-3 lg:gap-x-8 lg:space-y-0">
-            {COLLECTIONS.map((collection) => (
-              <Link
-                key={collection.name}
-                href={collection.href}
-                className="group block"
-                target="_blank"
-              >
-                <div
-                  aria-hidden="true"
-                  className="aspect-h-2 aspect-w-3 overflow-hidden rounded-lg lg:aspect-h-6 lg:aspect-w-5 group-hover:opacity-75"
+          <div className="mt-4 flow-root">
+            <div className="
+            grid grid-cols-1 gap-y-4 mx-4
+            sm:grid-cols-2 gap-x-4
+            lg:grid lg:px-8 lg:grid-cols-4 
+            xl:gap-x-8 xl:px-0
+            ">
+              {COLLECTIONS.map((collection) => (
+                <Link
+                  key={collection.name}
+                  href={collection.href}
+                  target="_blank"
+                  className="relative flex h-full w-auto flex-col overflow-hidden rounded-lg hover:opacity-75 xl:w-auto"
                 >
-                  <img
-                    alt={collection.imageAlt}
-                    src={collection.imageSrc}
-                    className="h-full w-full object-cover object-center"
-                  />
-                </div>
-                <h3 className="mt-4 text-base font-semibold text-gray-900">
-                  {collection.name}
-                </h3>
-                <p className="mt-2 text-sm text-gray-500">
-                  {collection.description}
-                </p>
-              </Link>
-            ))}
+                  <div
+                    aria-hidden="true"
+                    className="h-[24rem] w-auto overflow-hidden rounded-lg lg:aspect-h-6 lg:aspect-w-5 group-hover:opacity-75"
+                  >
+                    <img
+                      alt={collection.imageAlt}
+                      src={collection.imageSrc}
+                      className="h-full w-full object-cover object-center"
+                    />
+                  </div>
+                  <h3 className="mt-4 text-base font-semibold text-gray-900">
+                    {collection.name}
+                  </h3>
+                  <p className="mt-2 text-sm text-gray-500">
+                    {collection.description}
+                  </p>
+                </Link>
+              ))}
+            </div>
           </div>
         </section>
 

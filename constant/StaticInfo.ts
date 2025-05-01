@@ -24,33 +24,40 @@ export const RESOURCES = [
 ];
 export const COLLECTIONS = [
   {
-    name: "African Americans at Miami University",
+    name: "Western College Oral Histories",
+    href: "https://digital.lib.miamioh.edu/digital/collection/western/search",
+    imageSrc: "https://lib.miamioh.edu/images/spec-coll-collections/Western_college_oral_histories.jpg",
+    imageAlt: "Photo from an oral history interview session",
+    description: "This collection preserves the oral histories given by alumnae, faculty, and staff about their experiences at Western College for Women."
+  },
+  {
+    name: "Western Multifaria Yearbooks",
     href: "https://digital.lib.miamioh.edu/digital/collection/afamhist/search",
     imageSrc:
-      "https://www.lib.miamioh.edu/images/spec-coll-collections/African_american_collection2.jpg",
-    imageAlt: ".",
+      "https://www.lib.miamioh.edu/images/spec-coll-collections/multifaria.jpg",
+    imageAlt: "Cover image from yearbook",
     description:
-      "Documents the history of African Americans at Miami University through newspaper articles, photographs, and other media between 1868 and 2004.",
+      "The Multifaria is Western College’s yearbook, published annually between 1910-1974. Volumes include photographs of organizations, extracurricular activities, faculty, staff, and students from 1910-1974. The Multifaria is available as a full-text searchable digital collection.",
   },
   {
-    name: "Race at Miami University",
-    href: "https://digital.lib.miamioh.edu/digital/collection/race/search",
+    name: "Digital N.O.W. Miami Oxford, Butler County Chapter",
+    href: "https://digital.lib.miamioh.edu/digital/collection/butlernow_p/search",
     imageSrc:
-      "https://www.lib.miamioh.edu/images/spec-coll-collections/RaceAtMiami_800px.jpg",
+      "https://www.lib.miamioh.edu/images/spec-coll-collections/Digital_NOW.jpg",
     imageAlt:
-      "Natural leather mouse pad on white desk next to porcelain mug and keyboard.",
+      "Women's suffrage button titled Failure is Impossible with image of Susan B. Anthony",
     description:
-      "Collection of documents from the Miami University Archives relating to race at Miami University, with special emphasis on the experiences of Black faculty, students, and staff.  ",
+      "Created in 1974 by the Butler County, Ohio chapter of the National Organization for Women, this collection of material culture comprises buttons, t-shirts, jewelry and other items used by the NOW organization to engage people in conversations about feminist issues.",
   },
   {
-    name: "Miami Student Activism",
-    href: "https://cdm17240.contentdm.oclc.org/digital/collection/activism/search",
+    name: "Jennie Elder Suel and Black Women of Oxford Collections",
+    href: "https://cdm17240.contentdm.oclc.org/digital/collection/suel/search",
     imageSrc:
-      "https://www.lib.miamioh.edu/images/spec-coll-collections/Miami_StudentActivism_800px.jpg",
+      "https://www.lib.miamioh.edu/images/spec-coll-collections/Jennie_Elder_Suel_800px.jpg",
     imageAlt:
-      "Person placing task list card into walnut card holder next to felt carrying case on leather desk pad.",
+      "Three African American men and women pose for a photograph in front of a stone building",
     description:
-      "Documents and publications relating to student activism at Miami University.",
+      "Three African American men and women pose for a photograph in front of a stone building",
   },
 ];
 export const CAROUSEL = [
