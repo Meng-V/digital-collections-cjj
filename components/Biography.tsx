@@ -80,7 +80,7 @@ export default function Biography() {
             </p>
 
             <p className="mt-8">
-              Jefferson-Jenkins joined the League of Women Voters in 1982, and she led a 1996 "Get Out the Vote" campaign, which registered more than 50,000 voters nationally. In 1998 she was elected as the 15th President of the League of Women Voters and subsequently elected to a second term as president. She was the first woman of African descent to serve as president of the league. While Jefferson-Jenkins served as president, the League helped pass the Bipartisan Campaign Reform Act in 2002, which closed loopholes in campaign finance. She also spoke on the need for campaign finance, worked to increase voting using public awareness ads, sought to broaden participation in democracy, and established a means to increase membership in the League of Women Voters.
+              Jefferson-Jenkins joined the League of Women Voters in 1982, and she led a 1996 &#34;Get Out the Vote&#34; campaign, which registered more than 50,000 voters nationally. In 1998 she was elected as the 15th President of the League of Women Voters and subsequently elected to a second term as president. She was the first woman of African descent to serve as president of the league. While Jefferson-Jenkins served as president, the League helped pass the Bipartisan Campaign Reform Act in 2002, which closed loopholes in campaign finance. She also spoke on the need for campaign finance, worked to increase voting using public awareness ads, sought to broaden participation in democracy, and established a means to increase membership in the League of Women Voters.
             </p>
           </div>
         </div>
