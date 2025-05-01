@@ -6,7 +6,7 @@ import { CAROUSEL, COLLECTIONS, RESOURCES } from "@/constant/StaticInfo";
 import About from "@/components/About";
 import Stats from "@/components/Stats";
 import Link from "next/link";
-import History from "@/components/History";
+import Biography from "@/components/Biography";
 import RedButton from "@/components/RedButton";
 
 export default function Home() {
@@ -33,10 +33,10 @@ export default function Home() {
           </Carousel>
         </div>
 
-        <div className="relative max-w-3xl flex flex-col items-center justify-center gap-y-4 sm:gap-y-8 mx-auto text-center text-white h-[30rem] sm:h-[45rem] ">
-          <div className="max-w-xl">
-            <h1 className="text-4xl font-bold lg:text-6xl">
-              Freedom Summer Digital Archive
+        <div className="relative flex flex-col items-center justify-center gap-y-4 sm:gap-y-8 mx-auto text-center text-white h-[30rem] sm:h-[45rem] ">
+          <div className="max-w-7xl">
+            <h1 className="text-4xl font-bold lg:text-5xl">
+              Dr. Carolyn Jefferson-Jenkins and the League of Women Voters Digital Collection
             </h1>
           </div>
           {/* <p className="text-lg sm:text-xl bg-stone-800 bg-opacity-65 leading-7 sm:leading-9 p-4 rounded-3xl">
@@ -45,12 +45,12 @@ export default function Home() {
             known as Freedom Summer
           </p> */}
           <Link
-            href="https://digital.lib.miamioh.edu/digital/collection/fstxt/search"
+            href="https://digital.lib.miamioh.edu/digital/collection/cjj/search"
             target="_blank"
           >
             <RedButton
               buttonType="submit"
-              buttonName="Explore Digital Collection"
+              buttonName="Explore the Collection"
             />
           </Link>
         </div>
@@ -86,45 +86,47 @@ export default function Home() {
           </div>
 
           <div className="mt-4 flow-root">
-            <div className="relative box-content h-[20.5rem] overflow-x-auto py-2 xl:overflow-visible">
-              <div className="absolute flex space-x-8 px-4 sm:px-6 lg:px-8 xl:relative xl:grid xl:grid-cols-5 xl:gap-x-8 xl:space-x-0 xl:px-0">
-                {RESOURCES.map((category) => (
-                  <Link
-                    key={category.name}
-                    href={category.href}
-                    target="_blank"
-                    className="relative flex h-80 w-56 flex-col overflow-hidden rounded-lg p-6 hover:opacity-75 xl:w-auto"
-                  >
-                    <span aria-hidden="true" className="absolute inset-0">
-                      <img
-                        alt=""
-                        src={category.imageSrc}
-                        className="h-full w-full object-cover object-center"
-                      />
-                    </span>
-                    <span
-                      aria-hidden="true"
-                      className="absolute inset-x-0 bottom-0 h-2/3 bg-gradient-to-t from-gray-800 opacity-50"
+            <div className="
+            grid grid-cols-2 gap-x-2 gap-y-4 mx-4
+            lg:grid lg:px-8 lg:grid-cols-4 
+            xl:gap-x-8 xl:space-x-0 xl:px-0
+            ">
+              {RESOURCES.map((category) => (
+                <Link
+                  key={category.name}
+                  href={category.href}
+                  target="_blank"
+                  className="relative flex h-80 w-auto flex-col overflow-hidden rounded-lg p-6 hover:opacity-75 xl:w-auto"
+                >
+                  <span aria-hidden="true" className="absolute inset-0">
+                    <img
+                      alt=""
+                      src={category.imageSrc}
+                      className="h-full w-full object-cover object-center"
                     />
-                    <span className="relative mt-auto text-center text-xl font-bold text-white">
-                      {category.name}
-                    </span>
-                  </Link>
-                ))}
-              </div>
+                  </span>
+                  <span
+                    aria-hidden="true"
+                    className="absolute inset-x-0 bottom-0 h-2/3 bg-gradient-to-t from-gray-800 opacity-50"
+                  />
+                  <span className="relative mt-auto text-center text-xl font-bold text-white">
+                    {category.name}
+                  </span>
+                </Link>
+              ))}
             </div>
-            {/* <Link
+          </div>
+          {/* <Link
               href="#"
               className="text-sm pl-4 font-semibold text-red-800 hover:text-red-700 block sm:hidden"
             >
               Browse all related resources
               <span aria-hidden="true"> &rarr;</span>
             </Link> */}
-          </div>
         </section>
 
         <section>
-          <History />
+          <Biography />
         </section>
 
         {/* Featured section */}
@@ -132,7 +134,7 @@ export default function Home() {
           aria-labelledby="social-impact-heading"
           className="mx-auto w-full max-w-7xl px-4 sm:px-6"
         >
-          <div className="relative overflow-hidden rounded-lg">
+          <div className="relative overflow-hidden rounded-xl">
             <div className="absolute inset-0">
               <img
                 alt=""
@@ -140,7 +142,7 @@ export default function Home() {
                 className="mx-auto h-full aspect-[5/2] object-cover"
               />
             </div>
-            <div className="relative bg-stone-800 bg-opacity-65 px-6 py-32 sm:px-12 sm:py-40 lg:px-16">
+            <div className="relative bg-stone-800 opacity-[.85] px-6 py-32 sm:px-12 sm:py-40 lg:px-16">
               <div className="relative mx-auto flex max-w-3xl flex-col items-center ">
                 <h2
                   id="social-impact-heading"
@@ -149,15 +151,7 @@ export default function Home() {
                   <span className="block sm:inline">Support</span>
                 </h2>
                 <p className="mt-4 text-lg leading-7 text-stone-50 text-left">
-                  The Freedom Summer Digital Archive began in 2009 with a grant
-                  from the Ohio Humanities Council, the Miami University
-                  Libraries, and through the generous support of Catherine
-                  Ross-Loveland, a 1952 graduate of the Western College for
-                  Women. Additional support was provided by a Miami University
-                  Libraries’ Diversity, Equity, and Inclusion grant in 2021 and
-                  funding from the Boldly Creative Initiative in 2023, sponsored
-                  by the Offices of the President and the Provost at Miami
-                  University.
+                  The Dr. Carolyn Jefferson-Jenkins and the League of Women Voters Digital Collection received financial support from a grant from the MIAMI Women Giving Circle. Dr. Jefferson-Jenkins for generously donating her papers to the Walter Havighurst Special Collections and University Archives in 2006 and 2021. Funding from the MIAMI Women Giving Circle supported the physical processing of the 2021 gift, the digitization of the collection, and the creation of the Carolyn Jefferson-Jenkins Collection finding aid.
                 </p>
                 {/* <Link
                   href="https://digital.lib.miamioh.edu/digital/collection/fstxt/search"
@@ -217,30 +211,32 @@ export default function Home() {
           aria-labelledby="comfort-heading"
           className="mx-auto max-w-7xl w-full mb-32 px-4 sm:px-6"
         >
-          <div className="relative overflow-hidden rounded-lg">
+          <div className="relative overflow-hidden rounded-xl">
             <div className="absolute inset-0">
               <img
                 alt=""
-                src="/Contribute_01_New.jpg"
-                className="mx-auto h-full aspect-[5/2] object-cover"
+                src="/CJJ-1225_Hero1_1200px.jpg"
+                className="mx-auto h-full aspect-[5/2] object-cover object-[0%_78%]"
               />
             </div>
-            <div className="relative bg-stone-800 bg-opacity-65 px-6 py-32 sm:px-12 sm:py-40 lg:px-16">
-              <div className="relative mx-auto flex max-w-3xl flex-col items-center">
+            <div className="relative bg-stone-800 opacity-[.90] px-6 py-32 sm:px-12 sm:py-40 lg:px-16">
+              <div className="relative mx-auto flex max-w-3xl flex-col items-center ">
                 <h2
-                  id="comfort-heading"
-                  className="text-3xl font-bold tracking-tight text-gray-200 sm:text-4xl text-center"
+                  id="social-impact-heading"
+                  className="text-3xl font-bold tracking-tight text-white sm:text-4xl text-center"
                 >
-                  Need research help?
+                  <span className="block sm:inline">League of Women Voters</span>
                 </h2>
-
-                <Link
-                  href="https://spec.lib.miamioh.edu/home/"
-                  className="mt-8 rounded-md border border-transparent bg-white px-8 py-3 text-base font-medium text-gray-900 hover:bg-gray-100 sm:w-auto"
+                <p className="mt-4 text-lg leading-8 text-stone-50 text-left">
+                  Founded in 1920, the League of Women Voters (LWV) is a nonpartisan, grassroots nonprofit dedicated to ensuring that everyone has the opportunity to vote and participate in government from the local to national level. With active Leagues in every state and more than 700 Leagues across the nation, the LWV protects the right to vote through advocacy, education, litigation, and organization. Formed from the merger of the National American Women’s Suffrage Association and the National Council of Women Voters, the early LWV sought to help newly enfranchised women exercise their right to vote through education and advocacy. In recent years, the League has focused on building a more inclusive democracy where all Americans–regardless of gender, sex, race, ability, or party–can see themselves represented in government and actively participate in the political process. Contemporary issues include: expanding voter access, fighting voter suppression, money in politics, gerrymandering, and advocating for safe and fair elections. The League also promotes social and economic justice more broadly through policy work in health care, environmental, immigration reform, and census representation.
+                </p>
+                {/* <Link
+                  href="https://digital.lib.miamioh.edu/digital/collection/fstxt/search"
+                  className="mt-8 block w-full rounded-md border border-transparent bg-white px-8 py-3 text-base font-medium text-gray-900 hover:bg-gray-100 sm:w-auto"
                   target="_blank"
                 >
-                  Contact us
-                </Link>
+                  Browse All Collections
+                </Link> */}
               </div>
             </div>
           </div>

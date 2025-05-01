@@ -1,34 +1,26 @@
 export const RESOURCES = [
   {
-    name: "Freedom Summer Finding Aid",
-    href: "https://archivesspace.lib.miamioh.edu/repositories/2/archival_objects/21880",
-    imageSrc:
-      "https://findingfreedom.lib.miamioh.edu/assets/images/Education/Organizations%20and%20Archives.jpg",
+    name: "League of Women Voters",
+    href: "https://www.lwv.org/",
+    imageSrc: "/CJJ_LWV_800px.jpg",
   },
   {
-    name: "Finding Freedom Summer Traveling Exhibit",
-    href: "https://findingfreedom.lib.miamioh.edu/",
-    imageSrc:
-      "https://findingfreedom.lib.miamioh.edu/assets/images/Complete/Bravery_03_Replace.jpg",
+    name: "Menard Family Center for Democracy",
+    href: "https://miamioh.edu/centers-institutes/menard-family-center/index.html",
+    imageSrc: "/CJJ_Menard_800px.jpg"
   },
   {
-    name: "Freedom Summer LibGuides",
-    href: "https://libguides.lib.miamioh.edu/FreedomSummer/collections",
-    imageSrc:
-      "https://findingfreedom.lib.miamioh.edu/assets/images/Education/Books%20and%20Documentaries.jpg",
+    name: "Western Center for Social Impact and Innovation",
+    href: "https://miamioh.edu/cas/centers-institutes/western-center/index.html",
+    imageSrc: "/CJJ_WesternCenter_800px.jpg",
   },
 
   {
-    name: "Freedom Summer Memorial",
-    href: "https://artoncampus.lib.miamioh.edu/freedom-summer-64-memorial-and-the-50th-anniversary-sculptures?_ga=2.232145631.116480752.1724351843-2055157657.1620069425",
-    imageSrc:
-      "https://findingfreedom.lib.miamioh.edu/assets/images/Education/Freedom%20Summer%20at%20Miami%20University.jpg",
-  },
-  {
-    name: "Freedom Summer App",
-    href: "https://fsapp.lib.miamioh.edu/",
-    imageSrc: "/App.jpg",
-  },
+    name: "Lived Experiences Through Storytelling at Miami University",
+    href: "https://livedmu.lib.miamioh.edu/",
+    imageSrc: "/CJJ_LivedExper_800px.jpg",
+
+  }
 ];
 export const COLLECTIONS = [
   {

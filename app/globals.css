@@ -1,8 +1,7 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
 @import url(fonts.css);
 
+/* ─── BASE LAYER ─────────────────────────────────────────── */
 @layer base {
   :root {
     --background: 0 0% 100%;
@@ -58,42 +57,46 @@
     --chart-4: 280 65% 60%;
     --chart-5: 340 75% 55%;
   }
-}
 
-@layer base {
   * {
-    @apply border-border;
+    @apply border-[hsl(var(--border))];
   }
+
   body {
-    @apply bg-background text-foreground;
+    @apply bg-[hsl(var(--background))] text-[hsl(var(--foreground))];
   }
+
   :link {
     @apply no-underline hover:underline;
   }
 }
 
-.underlineLink {
-  @apply text-red-800 underline hover:text-red-700;
-}
 
-h1{
-  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.7);
-}
 
-/* Carousel Styles */
-ul.thumbs.animated {
-  @apply flex justify-center;
-}
+/* ─── UTILITIES LAYER ────────────────────────────────────── */
 
-.legend {
-  @apply bg-transparent text-right py-0 pr-2 opacity-80 text-white text-sm !important;
-  left: 54% !important;
-  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.9) !important;
-}
+@layer utilities {
+  .underlineLink {
+    @apply text-[#991b1b] underline hover:text-[#b91c1c];
+  }
 
-/* Statistic Text */
+  /* Carousel helpers */
+  ul.thumbs.animated {
+    @apply flex justify-center;
+  }
 
-.stat-text {
-  font-family: Gotham Black;
-  -webkit-text-stroke: 2px rgba(196, 18, 48, 1);
+  .legend {
+    @apply text-white text-sm opacity-80;
+    background-color: transparent;
+    text-align: right;
+    padding: 0 0.5rem 0 0;
+    left: 54% !important;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, .9) !important;
+  }
+
+  /* Statistic text helper */
+  .stat-text {
+    font-family: "Gotham Black", sans-serif;
+    -webkit-text-stroke: 2px rgba(196, 18, 48, 1);
+  }
 }

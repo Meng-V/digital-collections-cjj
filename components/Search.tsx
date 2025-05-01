@@ -11,7 +11,7 @@ export default function Search() {
     <div className="max-w-7xl gap-10 lg:grid-cols-12 lg:gap-8">
       <form
         className="w-full lg:pt-2"
-        action={`https://digital.lib.miamioh.edu/digital/collection/fstxt/search/searchterm/${inputValue}`}
+        action={`https://digital.lib.miamioh.edu/digital/collection/cjj/search/searchterm/${inputValue}`}
       >
         <div className="flex gap-x-4">
           <label htmlFor="search-terms" className="sr-only">

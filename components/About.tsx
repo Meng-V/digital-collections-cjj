@@ -17,27 +17,15 @@ const About = () => {
         <div className="mt-6 flex flex-col gap-x-8 gap-y-20 lg:flex-row">
           <div className="max-w-4xl lg:max-w-3xl">
             <p className="text-xl leading-8 text-gray-600">
-              The Freedom Summer Digital Archive includes over 1,100 primary
-              sources relating to the Mississippi Summer Project, the 1964
-              African American voter registration drive later known as Freedom
-              Summer.
+            The Dr. Carolyn Jefferson-Jenkins and the League of Women Voters Digital Collection includes records, correspondence, reports, printed materials, and memorabilia related to the life and career of Dr. Carolyn Jefferson-Jenkins, the 15th National President of the League of Women Voters of the United States, as well as documents relating to the mission and activities of that organization during her tenure as president. Original materials are held at the Walter Havighurst Special Collections & University Archives at Miami University, originally part of the Western College Memorial Archives.
             </p>
 
             <p className="mt-10 pr-4 text-base leading-6 text-gray-700">
-              The digital collection brings together digitized material from
-              several Freedom Summer collections in the United States, such as
-              the Mark Levy Collection at the Queens College Special Collections
-              and Archives, City University of New York and the Freedom Summer
-              Archive at the Walter Havighurst Special Collections & University
-              Archives at Miami University, originally part of the Western
-              College Memorial Archives.
+            Dr. Carolyn Jefferson-Jenkins, a 1974 graduate of Western College for Women (now Miami University), served as the President of the League of Women Voters from 1998-2002. She is the only woman of African-American descent to head the League. During her presidency, Dr. Jefferson-Jenkins led the organization’s education and advocacy work and oversaw several comprehensive League initiatives. These included the 1996 “Get Out the Vote” campaign and “The Wired for Democracy” project, which increased voter education and participation via the Web. She also led the League in developing their strategic plan, “The Future Plan,” which emphasized keeping the League relevant through diversity, equity and inclusion.
             </p>
 
             <p className="mt-10 pr-4 text-base leading-6 text-gray-700">
-              The Freedom Summer Digital Archive was funded by the Ohio
-              Humanities Council, Miami University Libraries, and through the
-              generous support of Catherine Ross-Loveland, a 1952 graduate of
-              the Western College for Women.
+            The Dr. Carolyn Jefferson-Jenkins Digital Collection was funded by a grant from the MIAMI Women Giving Circle and is hosted by the Miami University Libraries. 
             </p>
           </div>
 
@@ -75,13 +63,13 @@ const About = () => {
                   </dt>
                   <DisclosurePanel as="dd" className="mt-2 px-8 py-4 rounded-md bg-stone-50">
                     <p className="text-base leading-7 text-gray-600">
-                      Only a portion of Miami University’s Freedom Summer
-                      Archive has been digitized. Researchers are encouraged to
+                      Only a portion of the Carolyn Jefferson-Jenkins Collection
+                      has been digitized. Researchers are encouraged to
                       explore the full collection housed at the Walter
                       Havighurst Special Collections & University Archives using
                       the{" "}
                       <a
-                        href="https://archivesspace.lib.miamioh.edu/repositories/2/archival_objects/21880"
+                        href="https://archivesspace.lib.miamioh.edu/repositories/2/resources/722"
                         className="underlineLink"
                       >
                         collection finding aid
