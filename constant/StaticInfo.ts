@@ -54,28 +54,27 @@ export const COLLECTIONS = [
   },
 ];
 export const CAROUSEL = [
+  // {
+  //   name: "Front cover of the League of Women Voters and Ladies' Home Journal - Power the Vote booklet",
+  //   imageSrc: "/CJJ-1225_Hero1_1200px",
+  //   imageAlt:
+  //     "Front cover of the League of Women Voters and Ladies' Home Journal - Power the Vote booklet",
+  //   description:
+  //     "Dr. Jefferson-Jenkins’ copy of the League of Women Voters and Ladies' Home Journal - Power the Vote, 1996. Carolyn Jefferson-Jenkins Collection, Walter Havighurst Special Collections and University Archives",
+  // },
+  // {
+  //   name: "Children Registering for Freedom School",
+  //   imageSrc: "/CJJ-1003_Hero2_1200px.jpg",
+  //   imageAlt:
+  //     "Children Registering for Freedom School, 1964. Photograph by Carol Gross Colca.",
+  //   description:
+  //     "Mississippi Freedom Summer Collection, Walter Havighurst Special Collections and University Archives.",
+  // },
   {
-    name: "Student Volunteers Sing with Fannie Lou Hamer",
-    imageSrc: "/Unity_01_Replace.jpg",
+    name: "Photograph of Carolyn Jefferson-Jenkins with members of the League of Women Voters",
+    imageSrc: "/CJJ-1000_Hero3_1200px.jpg",
     imageAlt:
-      "Student Volunteers Sing with Fannie Lou Hamer, June 1964. Photograph by George R. Hoxie.",
-    description:
-      "George R. Hoxie Photograph Collection at the Smith Library of Regional History.",
-  },
-  {
-    name: "Children Registering for Freedom School",
-    imageSrc: "/Contribute_01_New.jpg",
-    imageAlt:
-      "Children Registering for Freedom School, 1964. Photograph by Carol Gross Colca.",
-    description:
-      "Mississippi Freedom Summer Collection, Walter Havighurst Special Collections and University Archives.",
-  },
-  {
-    name: "Western College Sign with Three Young People",
-    imageSrc: "/Courage_04.jpg",
-    imageAlt:
-      "Western College Sign with Three Young People, June 1964. Photograph by Herbert Randall.",
-    description:
-      "M351 Herbert Randall Freedom Summer Photographs, Historical Manuscripts, The University of Southern Mississippi.",
+      "Photograph of Carolyn Jefferson-Jenkins with members of the League of Women Voters",
+    description: "Photograph of Carolyn Jefferson-Jenkins with members of the League of Women Voters, undated. Carolyn Jefferson-Jenkins Collection, Walter Havighurst Special Collections and University Archives",
   },
 ];

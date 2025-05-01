@@ -34,7 +34,7 @@ export default function Home() {
         </div>
 
         <div className="relative flex flex-col items-center justify-center gap-y-4 sm:gap-y-8 mx-auto text-center text-white h-[30rem] sm:h-[45rem] ">
-          <div className="max-w-7xl">
+          <div className="max-w-7xl mx-4">
             <h1 className="text-4xl font-bold lg:text-5xl">
               Dr. Carolyn Jefferson-Jenkins and the League of Women Voters Digital Collection
             </h1>
