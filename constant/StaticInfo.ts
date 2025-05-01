@@ -57,7 +57,7 @@ export const COLLECTIONS = [
     imageAlt:
       "Three African American men and women pose for a photograph in front of a stone building",
     description:
-      "Three African American men and women pose for a photograph in front of a stone building",
+      "This community-centered collection chronicles the lives and contributions of Black women in Oxford, Ohio from the early nineteenth century to the present with special focus on the collection and life of Jennie Elder Suel.",
   },
 ];
 export const CAROUSEL = [
