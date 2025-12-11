@@ -8,8 +8,21 @@ import Stats from "@/components/Stats";
 import Link from "next/link";
 import Biography from "@/components/Biography";
 import RedButton from "@/components/RedButton";
+import { ClientLogger } from "@/lib/client-logger";
+import { useEffect } from "react";
+
+const log = new ClientLogger('HomePage');
 
 export default function Home() {
+  useEffect(() => {
+    log.mount();
+    log.info('Home page loaded', { 
+      carouselItems: CAROUSEL.length,
+      collections: COLLECTIONS.length,
+      resources: RESOURCES.length 
+    });
+  }, []);
+
   return (
     <>
       {/* Hero section */}

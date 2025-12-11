@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import { Fragment, useEffect, useRef, useState } from "react";
+import { ClientLogger } from "@/lib/client-logger";
 import {
   ResearchMenu,
   UseLibraryMenu,
@@ -28,6 +29,8 @@ import {
 } from "@heroicons/react/24/outline";
 import { ChevronDownIcon } from "@heroicons/react/20/solid";
 
+const log = new ClientLogger('Header');
+
 export function Header() {
   const divRef = useRef<HTMLDivElement>(null); // Reference for the div
 
@@ -36,6 +39,7 @@ export function Header() {
 
   // Toggle search handler
   const toggleSearch = () => {
+    log.event('toggle_search', { newState: !siteSearchOpen });
     setSiteSearchOpen(!siteSearchOpen);
   };
 
@@ -124,7 +128,10 @@ export function Header() {
           <div className="flex lg:hidden">
             <button
               type="button"
-              onClick={() => setMobileMenuOpen(true)}
+              onClick={() => {
+                log.event('open_mobile_menu');
+                setMobileMenuOpen(true);
+              }}
               className="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-700"
             >
               <span className="sr-only">Open main menu</span>

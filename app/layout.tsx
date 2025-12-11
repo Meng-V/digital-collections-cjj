@@ -1,8 +1,11 @@
 import { Inter } from "next/font/google";
 import { Header } from "@/components/Header";
 import Footer from "@/components/Footer";
+import { Logger } from "@/lib/logger";
 import "./globals.css";
 import "./header.css";
+
+const log = new Logger({ component: 'RootLayout' });
 
 export const metadata = {
   metadataBase: new URL("https://www.lib.miamioh.edu"),
@@ -21,6 +24,8 @@ export default function RootLayout({
 }: {
   children: React.ReactNode;
 }) {
+  log.info('Rendering layout');
+  
   return (
     <html lang="en" className={inter.variable}>
       <body>

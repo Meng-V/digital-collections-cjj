@@ -1,17 +1,27 @@
 "use client";
 
 import Link from "next/link";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import RedButton from "./RedButton";
+import { ClientLogger } from "@/lib/client-logger";
+
+const log = new ClientLogger('Search');
 
 export default function Search() {
   const [inputValue, setInputValue] = useState("");
+
+  const handleSubmit = () => {
+    if (inputValue.trim()) {
+      log.event('search_submit', { query: inputValue, queryLength: inputValue.length });
+    }
+  };
 
   return (
     <div className="max-w-7xl gap-10 lg:grid-cols-12 lg:gap-8">
       <form
         className="w-full lg:pt-2"
         action={`https://digital.lib.miamioh.edu/digital/collection/cjj/search/searchterm/${inputValue}`}
+        onSubmit={handleSubmit}
       >
         <div className="flex gap-x-4">
           <label htmlFor="search-terms" className="sr-only">
