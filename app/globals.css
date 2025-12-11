@@ -1,5 +1,7 @@
-@import "tailwindcss";
 @import url(fonts.css);
+@import "tailwindcss";
+
+@config "../tailwind.config.ts";
 
 /* ─── BASE LAYER ─────────────────────────────────────────── */
 @layer base {
